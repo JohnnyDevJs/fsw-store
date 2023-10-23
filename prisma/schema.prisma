@@ -2,7 +2,9 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client-js"
+  provider  = "prisma-client-js"
+  url       = "postgres://postgres.dwmizhbjfjsuctzmtsti:birpz79dwNt0ueQu@aws-0-us-east-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
+  directUrl = "postgres://postgres.dwmizhbjfjsuctzmtsti:birpz79dwNt0ueQu@aws-0-us-east-1.pooler.supabase.com:6543/postgres"
 }
 
 datasource db {
